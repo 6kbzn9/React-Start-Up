@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$react: hsl(191, 92%, 48%);
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react {
+  color: $react;
+  cursor: pointer;
+
+  &:hover {
+    color: darken($react, 10%);
+  }
+}
