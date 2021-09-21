@@ -1,4 +1,5 @@
 import React from "react";
+import "/src/index.css";
 
 const App = () => (
   <div className="flex h-screen w-full items-center justify-center">
